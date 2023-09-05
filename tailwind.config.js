@@ -10,6 +10,10 @@ export default {
 				'orange-landing': '#ff8534',
 				'purple-landing': '#6729ff',
 			},
+			animation: {
+				blink: 'blink .5s ease-in infinite',
+			},
+			keyframes: {},
 		},
 	},
 	plugins: [],
