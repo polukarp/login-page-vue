@@ -2,7 +2,7 @@
 	<main class="flex items-center justify-center min-h-screen min-w-screen bg-black-bg">
 		<div class="bg-light-gray-bg aspect-video w-[80%] rounded-3xl grid p-4 grid-cols-5">
 			<!-- SCENE -->
-			<div class="col-span-3 m-auto relative">
+			<div class="relative col-span-3 m-auto">
 				<div class="relative max-h-[600px]">
 					<PurpleCreature class="absolute top-[150px]" />
 					<BlackCreature class="absolute left-[120px] bottom-[100px]" />
@@ -10,15 +10,15 @@
 					<YellowCreature class="absolute bottom-[400px] left-[190px]" />
 				</div>
 			</div>
-			<div class="col-span-2 flex col-start-4 bg-white rounded-xl">
+			<div class="flex col-span-2 col-start-4 bg-white rounded-xl">
 				<form class="max-w-[320px] flex flex-col gap-4 m-auto text-center py-10" action="">
 					<div>
 						<img class="mx-auto mb-6" src="./assets/logo.jpg" alt="logo" />
 						<h1 class="text-3xl font-extrabold tracking-wide">Welcome back!</h1>
-						<p class="text-sm py-2">Please enter your details</p>
+						<p class="py-2 text-sm">Please enter your details</p>
 					</div>
 					<div class="flex flex-col gap-3">
-						<div class="w-full border-b-2 border-black py-3 text-left font-semibold">
+						<div class="w-full py-3 font-semibold text-left border-b-2 border-black">
 							<input
 								class="w-full border-0"
 								placeholder="Email"
@@ -27,7 +27,7 @@
 								id="email" />
 						</div>
 						<div
-							class="w-full flex border-b-2 border-black py-3 text-left font-semibold relative">
+							class="relative flex w-full py-3 font-semibold text-left border-b-2 border-black">
 							<input
 								class="w-full border-0"
 								type="password"
@@ -36,10 +36,10 @@
 								id="password" />
 							<img
 								src="./assets/eye-semi-open.jpg"
-								class="w-7 absolute right-0 cursor-pointer"
+								class="absolute right-0 cursor-pointer w-7"
 								alt="" />
 						</div>
-						<div class="flex text-sm justify-between py-1">
+						<div class="flex justify-between gap-4 py-1 text-sm">
 							<div>
 								<input
 									class="mr-1"
@@ -52,11 +52,11 @@
 						</div>
 					</div>
 					<div class="flex flex-col gap-3 py-3 font-semibold">
-						<button class="w-full rounded-3xl bg-black text-white p-3" type="submit">
+						<button class="w-full p-3 text-white bg-black rounded-3xl" type="submit">
 							Log In
 						</button>
 						<button
-							class="w-full hover:bg-gray-300 rounded-3xl bg-gray-200 text-black p-3"
+							class="w-full p-3 text-black bg-gray-200 hover:bg-gray-300 rounded-3xl"
 							type="submit">
 							Log In with Google
 						</button>

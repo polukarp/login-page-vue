@@ -8,5 +8,5 @@ import { ref } from 'vue';
 
 const eyeRef = ref<HTMLElement>();
 
-useFollow({ elementRef: eyeRef, rotate: true, tension: 1.2 });
+useFollow({ elementRef: eyeRef, rotate: true, tension: 1.5 });
 </script>

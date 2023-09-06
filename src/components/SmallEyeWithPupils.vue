@@ -9,5 +9,5 @@ import { useFollow } from '@/composables';
 import { ref } from 'vue';
 
 const eyeRef = ref<HTMLElement>();
-useFollow({ elementRef: eyeRef, rotate: true });
+useFollow({ elementRef: eyeRef, rotate: true, tension: 1.4 });
 </script>
