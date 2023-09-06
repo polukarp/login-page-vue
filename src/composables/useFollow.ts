@@ -1,5 +1,5 @@
 import { get, useEventListener, useMouseInElement } from '@vueuse/core';
-import { Ref, watch } from 'vue';
+import { Ref } from 'vue';
 
 type Options = {
 	elementRef: Ref<HTMLElement | undefined>;
